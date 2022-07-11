@@ -1,13 +1,12 @@
-import logo from "./logo.svg";
 import "./App.css";
+import React from "react";
+import AppBar from "./Components/AppBar";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Header Should be placed here</h1>
-      </header>
-    </div>
+    <>
+      <AppBar></AppBar>
+    </>
   );
 }
 
